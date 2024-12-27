@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    scale: 0.8;
+    scale: 1;
 }
 
 .hero-container {
@@ -371,6 +371,13 @@ section {
 
 /* Footer */
 
+footer {
+    background-image: url("/assets/hero.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
 .footer-logo-container {
     width: max-content;
     margin-left: auto;
@@ -391,6 +398,7 @@ section {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .logo {
@@ -415,7 +423,7 @@ section {
 
 .services-list li {
     color: #576D1E;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin-bottom: 12px;
     display: flex;
     align-items: center;
@@ -436,7 +444,7 @@ section {
 }
 
 .traveler-image {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -446,6 +454,7 @@ section {
     padding: 10px;
     text-align: left;
     padding-left: 30px;
+    padding-right: 30px;
     margin-top: 40px;
 }
 
@@ -809,6 +818,7 @@ section {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        gap: 0px;
     }
 
     .footer-logo-container img {
